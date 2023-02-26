@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-25T16:49:30 IST" name="Default suite" finished-at="2023-02-25T16:50:05 IST" duration-ms="35068">
+  <suite started-at="2023-02-26T19:18:13 IST" name="Default suite" finished-at="2023-02-26T19:19:08 IST" duration-ms="55337">
     <groups>
     </groups>
-    <test started-at="2023-02-25T16:49:30 IST" name="Default test" finished-at="2023-02-25T16:50:05 IST" duration-ms="35068">
-      <class name="com.bank_3k.qa.testcasses.verifyHomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bank_3k.qa.testcasses.verifyHomePageTest@3d680b5a]" started-at="2023-02-25T16:49:30 IST" name="setup" finished-at="2023-02-25T16:50:02 IST" duration-ms="32166" status="PASS">
+    <test started-at="2023-02-26T19:18:13 IST" name="Default test" finished-at="2023-02-26T19:19:08 IST" duration-ms="55337">
+      <class name="com.bank_3k.qa.testcasses.LoginsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:18:13 IST" name="setup" finished-at="2023-02-26T19:18:27 IST" duration-ms="14536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyHomepageTitleTest()[pri:0, instance:com.bank_3k.qa.testcasses.verifyHomePageTest@3d680b5a]" started-at="2023-02-25T16:50:02 IST" name="verifyHomepageTitleTest" finished-at="2023-02-25T16:50:02 IST" duration-ms="27" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:18:27 IST" name="validLoginTest" finished-at="2023-02-26T19:18:31 IST" duration-ms="3604" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomepageTitleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank_3k.qa.testcasses.verifyHomePageTest@3d680b5a]" started-at="2023-02-25T16:50:02 IST" name="teardown" finished-at="2023-02-25T16:50:05 IST" duration-ms="2797" status="PASS">
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:18:31 IST" name="teardown" finished-at="2023-02-26T19:18:31 IST" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.bank_3k.qa.testcasses.verifyHomePageTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:18:31 IST" name="setup" finished-at="2023-02-26T19:18:41 IST" duration-ms="9752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUseridLoginTest()[pri:1, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:18:41 IST" name="invalidUseridLoginTest" finished-at="2023-02-26T19:18:43 IST" duration-ms="1710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUseridLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:18:43 IST" name="teardown" finished-at="2023-02-26T19:18:43 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:18:43 IST" name="setup" finished-at="2023-02-26T19:18:53 IST" duration-ms="10252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidPasswordLoginTest()[pri:2, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:18:53 IST" name="invalidPasswordLoginTest" finished-at="2023-02-26T19:18:55 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:18:55 IST" name="teardown" finished-at="2023-02-26T19:18:56 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:18:56 IST" name="setup" finished-at="2023-02-26T19:19:06 IST" duration-ms="10840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLoginTest()[pri:3, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:19:06 IST" name="invalidLoginTest" finished-at="2023-02-26T19:19:08 IST" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank_3k.qa.testcasses.LoginsTest@3c419631]" started-at="2023-02-26T19:19:08 IST" name="teardown" finished-at="2023-02-26T19:19:08 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.bank_3k.qa.testcasses.LoginsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
