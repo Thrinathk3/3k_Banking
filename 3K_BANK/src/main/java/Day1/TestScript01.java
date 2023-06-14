@@ -1,7 +1,7 @@
 package Day1;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 
 /**
@@ -23,8 +23,8 @@ public class TestScript01 {
 	public static void main(String[] args) throws Exception {	  
 
 		//Setup Chrome driver    	
-		System.setProperty("webdriver.gecko.driver","./drivers/geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
 		String baseUrl = "http://www.demo.guru99.com/V4/";
 
 		// launch Firefox and direct it to the Base URL
@@ -39,7 +39,8 @@ public class TestScript01 {
 
 		// Click Login
 		driver.findElement(By.name("btnLogin")).click();
-
+		
+		
 
 	}
 
